@@ -11,7 +11,10 @@
 
 
 *{
-  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
 }
 
 :root {
@@ -22,4 +25,31 @@
   --Medium-Grey: #7c8798;
   --Dark-Blue: #252d37;
   --Very-DarkBlue: #121417;
+}
+
+.card .star{
+  height: 100px;
+  width: 100px;
+  background: red;
+}
+
+.card{
+  background: var(--Dark-Blue);
+}
+
+.title{
+  color: var(--White);
+}
+
+.description{
+  color: var(--Light-Grey);
+}
+
+.numbers{
+  color: var(--Medium-Grey);
+  background: var(--Dark-Blue)
+}
+.submit{
+  color: var(--White);
+  background: var(--Orange);
 }
