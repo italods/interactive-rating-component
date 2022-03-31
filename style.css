@@ -33,6 +33,15 @@ body{
   height: 100vh;
   background: var(--Very-DarkBlue);
 }
+body .title{
+  font-size: 25px;
+}
+
+body .description{
+  color: var(--Meduim);
+  font-size: 15px;
+  font-weight: 400;
+}
 
 .card{
   position: absolute;
@@ -61,16 +70,6 @@ body{
   justify-content: center;
   border-radius: 50%;
   background: var(--Medium-Grey);
-}
-
-.card .title{
-  font-size: 25px;
-}
-
-.card .description{
-  color: var(--Meduim);
-  font-size: 15px;
-  font-weight: 400;
 }
 
 .card .numbers{
@@ -110,4 +109,32 @@ body{
   background: var(--White);
   color: var(--Orange);
   font-weight: 700;
+}
+
+.card-thanks{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  height: 375px;
+  width: 375px;
+  padding: 35px;
+  border-radius: 30px;
+  background: var(--Dark-Blue);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.card-thanks .box{
+  padding: 5px 15px;
+  background: var(--Meduim);
+  border-radius: 30px;
+  color: var(--Orange);
+  font-weight: 400;
 }
